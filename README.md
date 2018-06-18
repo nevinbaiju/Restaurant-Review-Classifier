@@ -15,27 +15,9 @@ The objective of this exercise is to identify the best model for classifying the
 <a id='preprocessing'></a>
 ### Preprocessing
 
-##### steps taken
-- Removal of punctuations and symbols
-- Removing the stop words
-- Tokenizing after stemming the different words.
-- Building the vectors from the induvidual reviews.
-
+##### Dataset
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -77,6 +59,14 @@ The objective of this exercise is to identify the best model for classifying the
 
 
 The dataset contains the review string followed by a binary flag indicating wheather the user liked it or not.
+
+##### steps taken
+- Removal of punctuations and symbols
+- Removing the stop words
+- Tokenizing after stemming the different words.
+- Building the vectors from the induvidual reviews.
+
+
 
 <a id='gnb'></a>
 ## Summary of  Gaussian Naive Bayes  ##
