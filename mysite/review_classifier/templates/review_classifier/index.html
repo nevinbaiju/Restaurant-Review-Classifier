@@ -1,0 +1,9 @@
+<h1>Please tell us about your experience.</h1>
+<form action="{% url 'review_classifier:classify' %}" method="post">
+{% csrf_token %}
+
+Your Review:<br>
+<input type="text" name="review"><br>
+
+<input type="submit" value="Submit" />
+</form>
